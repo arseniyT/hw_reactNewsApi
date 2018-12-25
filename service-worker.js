@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hw_reactNewsApi/precache-manifest.b7a1b54bdebd3ba92ef593a1eaa0723b.js"
+  "/hw_ts-react-news-api/precache-manifest.4af54637d4830d8a448a71b7758dbc93.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/hw_reactNewsApi/index.html", {
+workbox.routing.registerNavigationRoute("/hw_ts-react-news-api/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
